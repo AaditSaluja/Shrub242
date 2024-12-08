@@ -1,0 +1,23 @@
+WARNING: Skipping torchvision as it is not installed.
+WARNING: Skipping torchaudio as it is not installed.
+ERROR: Exception:
+Traceback (most recent call last):
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/cli/base_command.py", line 160, in exc_logging_wrapper
+    status = run_func(*args)
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/cli/req_command.py", line 247, in wrapper
+    return func(self, options, args)
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/commands/install.py", line 503, in run
+    installed = install_given_reqs(
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/req/__init__.py", line 73, in install_given_reqs
+    requirement.install(
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/req/req_install.py", line 796, in install
+    install_wheel(
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/operations/install/wheel.py", line 729, in install_wheel
+    _install_wheel(
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/operations/install/wheel.py", line 618, in _install_wheel
+    assert os.path.exists(pyc_path)
+AssertionError
+Traceback (most recent call last):
+  File "/n/home13/asaluja/Shrub2/Alexnet+Cifar10/alexnet_cifar10.py", line 3, in <module>
+    import torch.optim as optim
+ModuleNotFoundError: No module named 'torch.optim'

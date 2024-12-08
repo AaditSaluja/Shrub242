@@ -1,0 +1,59 @@
+Training the main model (LeNet)...
+Epoch 1, Main Model Loss: 0.3197
+Epoch 2, Main Model Loss: 0.0885
+Epoch 3, Main Model Loss: 0.0635
+Epoch 4, Main Model Loss: 0.0524
+Epoch 5, Main Model Loss: 0.0429
+Epoch 6, Main Model Loss: 0.0374
+Epoch 7, Main Model Loss: 0.0314
+Epoch 8, Main Model Loss: 0.0280
+Epoch 9, Main Model Loss: 0.0248
+Epoch 10, Main Model Loss: 0.0227
+Training auxiliary models...
+Epoch 1, conv1 Loss: 0.1658, conv2 Loss: 0.0851
+Epoch 2, conv1 Loss: 0.0750, conv2 Loss: 0.0392
+Epoch 3, conv1 Loss: 0.0596, conv2 Loss: 0.0299
+Epoch 4, conv1 Loss: 0.0460, conv2 Loss: 0.0238
+Epoch 5, conv1 Loss: 0.0402, conv2 Loss: 0.0188
+Epoch 6, conv1 Loss: 0.0359, conv2 Loss: 0.0172
+Epoch 7, conv1 Loss: 0.0297, conv2 Loss: 0.0132
+Epoch 8, conv1 Loss: 0.0313, conv2 Loss: 0.0117
+Epoch 9, conv1 Loss: 0.0254, conv2 Loss: 0.0135
+Epoch 10, conv1 Loss: 0.0244, conv2 Loss: 0.0093
+Evaluating models...
+
+Class-wise accuracy for main:
+Class 0: 99.39%
+Class 1: 99.74%
+Class 2: 99.42%
+Class 3: 99.60%
+Class 4: 98.98%
+Class 5: 98.21%
+Class 6: 98.54%
+Class 7: 99.03%
+Class 8: 98.77%
+Class 9: 99.01%
+
+Class-wise accuracy for conv1:
+Class 0: 98.78%
+Class 1: 99.82%
+Class 2: 98.06%
+Class 3: 99.21%
+Class 4: 99.08%
+Class 5: 97.76%
+Class 6: 97.39%
+Class 7: 96.69%
+Class 8: 98.77%
+Class 9: 96.43%
+
+Class-wise accuracy for conv2:
+Class 0: 99.18%
+Class 1: 99.56%
+Class 2: 99.22%
+Class 3: 99.50%
+Class 4: 97.96%
+Class 5: 98.88%
+Class 6: 98.64%
+Class 7: 97.57%
+Class 8: 98.36%
+Class 9: 98.02%

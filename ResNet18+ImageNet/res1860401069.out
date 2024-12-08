@@ -1,0 +1,25 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Training the main model...
+Epoch 1, Loss: 2.3815, Training Accuracy: 42.64%
+Training auxiliary models...
+Epoch 1, conv1 Loss: 89.0761, layer1.0.conv1 Loss: 6.3865, layer1.0.conv2 Loss: 4.8401, layer1.1.conv1 Loss: 5.7487, layer1.1.conv2 Loss: 4.7766, layer2.0.conv1 Loss: 4.8016, layer2.0.conv2 Loss: 4.7145, layer2.1.conv1 Loss: 4.8951, layer2.1.conv2 Loss: 4.5054, layer3.0.conv1 Loss: 4.6752, layer3.0.conv2 Loss: 3.5847, layer3.1.conv1 Loss: 4.6996, layer3.1.conv2 Loss: 3.6786, layer4.0.conv1 Loss: 4.3537, layer4.0.conv2 Loss: 3.9173, layer4.1.conv1 Loss: 4.6687, layer4.1.conv2 Loss: 1.8500
+Evaluating models...
+main Accuracy: 54.13%
+conv1 Accuracy: 3.57%
+layer1.0.conv1 Accuracy: 1.00%
+layer1.0.conv2 Accuracy: 1.00%
+layer1.1.conv1 Accuracy: 1.00%
+layer1.1.conv2 Accuracy: 1.00%
+layer2.0.conv1 Accuracy: 1.00%
+layer2.0.conv2 Accuracy: 1.00%
+layer2.1.conv1 Accuracy: 1.88%
+layer2.1.conv2 Accuracy: 2.25%
+layer3.0.conv1 Accuracy: 1.00%
+layer3.0.conv2 Accuracy: 16.74%
+layer3.1.conv1 Accuracy: 1.00%
+layer3.1.conv2 Accuracy: 15.99%
+layer4.0.conv1 Accuracy: 4.56%
+layer4.0.conv2 Accuracy: 9.14%
+layer4.1.conv1 Accuracy: 1.00%
+layer4.1.conv2 Accuracy: 57.93%

@@ -1,0 +1,36 @@
+ERROR: Exception:
+Traceback (most recent call last):
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/shutil.py", line 816, in move
+    os.rename(src, real_dst)
+OSError: [Errno 18] Invalid cross-device link: '/n/home13/asaluja/.local/lib/python3.10/site-packages/functorch/' -> '/tmp/pip-uninstall-ow967bzb/functorch'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/cli/base_command.py", line 160, in exc_logging_wrapper
+    status = run_func(*args)
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/commands/uninstall.py", line 103, in run
+    uninstall_pathset = req.uninstall(
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/req/req_install.py", line 664, in uninstall
+    uninstalled_pathset.remove(auto_confirm, verbose)
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/req/req_uninstall.py", line 373, in remove
+    moved.stash(path)
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/req/req_uninstall.py", line 271, in stash
+    renames(path, new_path)
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/utils/misc.py", line 312, in renames
+    shutil.move(old, new)
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/shutil.py", line 836, in move
+    copy_function(src, real_dst)
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/shutil.py", line 434, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/shutil.py", line 254, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: '/n/home13/asaluja/.local/lib/python3.10/site-packages/functorch/'
+  WARNING: The scripts convert-caffe2-to-onnx, convert-onnx-to-caffe2, torchfrtrace and torchrun are installed in '/n/home13/asaluja/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: '/n/home13/asaluja/.local/lib/python3.10/site-packages/torch-2.5.1+cu118.dist-info/INSTALLERo99co3dl.tmp'
+
+Traceback (most recent call last):
+  File "/n/home13/asaluja/Shrub2/Alexnet+Cifar10/alexnet_cifar10.py", line 3, in <module>
+    import torch.optim as optim
+ModuleNotFoundError: No module named 'torch.optim'

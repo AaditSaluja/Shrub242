@@ -1,0 +1,141 @@
+Found existing installation: torch 2.0.0
+Uninstalling torch-2.0.0:
+  Successfully uninstalled torch-2.0.0
+Found existing installation: torchvision 0.15.1
+Uninstalling torchvision-0.15.1:
+  Successfully uninstalled torchvision-0.15.1
+Found existing installation: torchaudio 2.0.1+cu118
+Uninstalling torchaudio-2.0.1+cu118:
+  Successfully uninstalled torchaudio-2.0.1+cu118
+Defaulting to user installation because normal site-packages is not writeable
+Looking in indexes: https://download.pytorch.org/whl/cu118
+Collecting torch
+  Downloading https://download.pytorch.org/whl/cu118/torch-2.5.1%2Bcu118-cp310-cp310-linux_x86_64.whl (838.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 838.3/838.3 MB 74.5 MB/s eta 0:00:00
+Collecting torchvision
+  Downloading https://download.pytorch.org/whl/cu118/torchvision-0.20.1%2Bcu118-cp310-cp310-linux_x86_64.whl (6.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.5/6.5 MB 77.7 MB/s eta 0:00:00
+Collecting torchaudio
+  Downloading https://download.pytorch.org/whl/cu118/torchaudio-2.5.1%2Bcu118-cp310-cp310-linux_x86_64.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 62.7 MB/s eta 0:00:00
+Collecting nvidia-cudnn-cu11==9.1.0.70
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cudnn_cu11-9.1.0.70-py3-none-manylinux2014_x86_64.whl (663.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 663.9/663.9 MB 89.3 MB/s eta 0:00:00
+Collecting nvidia-nccl-cu11==2.21.5
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_nccl_cu11-2.21.5-py3-none-manylinux2014_x86_64.whl (147.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 147.8/147.8 MB 72.9 MB/s eta 0:00:00
+Requirement already satisfied: nvidia-cufft-cu11==10.9.0.58 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (10.9.0.58)
+Collecting sympy==1.13.1
+  Downloading https://download.pytorch.org/whl/sympy-1.13.1-py3-none-any.whl (6.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.2/6.2 MB 80.8 MB/s eta 0:00:00
+Collecting nvidia-nvtx-cu11==11.8.86
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_nvtx_cu11-11.8.86-py3-none-manylinux1_x86_64.whl (99 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.1/99.1 kB 434.8 MB/s eta 0:00:00
+Collecting triton==3.1.0
+  Downloading https://download.pytorch.org/whl/triton-3.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (209.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 209.5/209.5 MB 75.8 MB/s eta 0:00:00
+Requirement already satisfied: fsspec in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (2024.3.1)
+Collecting nvidia-cuda-cupti-cu11==11.8.87
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cuda_cupti_cu11-11.8.87-py3-none-manylinux1_x86_64.whl (13.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.1/13.1 MB 68.6 MB/s eta 0:00:00
+Requirement already satisfied: networkx in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (3.2.1)
+Collecting nvidia-cuda-runtime-cu11==11.8.89
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cuda_runtime_cu11-11.8.89-py3-none-manylinux1_x86_64.whl (875 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 875.6/875.6 kB 95.4 MB/s eta 0:00:00
+Collecting nvidia-cusparse-cu11==11.7.5.86
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cusparse_cu11-11.7.5.86-py3-none-manylinux1_x86_64.whl (204.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 204.1/204.1 MB 79.6 MB/s eta 0:00:00
+Collecting nvidia-cusolver-cu11==11.4.1.48
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cusolver_cu11-11.4.1.48-py3-none-manylinux1_x86_64.whl (128.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.2/128.2 MB 79.0 MB/s eta 0:00:00
+Collecting nvidia-cublas-cu11==11.11.3.6
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cublas_cu11-11.11.3.6-py3-none-manylinux1_x86_64.whl (417.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 417.9/417.9 MB 34.4 MB/s eta 0:00:00
+Requirement already satisfied: typing-extensions>=4.8.0 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (4.10.0)
+Collecting nvidia-cuda-nvrtc-cu11==11.8.89
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cuda_nvrtc_cu11-11.8.89-py3-none-manylinux1_x86_64.whl (23.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.2/23.2 MB 50.3 MB/s eta 0:00:00
+Requirement already satisfied: filelock in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (3.13.1)
+Requirement already satisfied: jinja2 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (3.1.3)
+Collecting nvidia-curand-cu11==10.3.0.86
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_curand_cu11-10.3.0.86-py3-none-manylinux1_x86_64.whl (58.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.1/58.1 MB 51.3 MB/s eta 0:00:00
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from sympy==1.13.1->torch) (1.3.0)
+Requirement already satisfied: numpy in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torchvision) (1.26.4)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torchvision) (10.2.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from jinja2->torch) (2.1.5)
+Installing collected packages: triton, sympy, nvidia-nvtx-cu11, nvidia-nccl-cu11, nvidia-cusparse-cu11, nvidia-curand-cu11, nvidia-cuda-runtime-cu11, nvidia-cuda-nvrtc-cu11, nvidia-cuda-cupti-cu11, nvidia-cublas-cu11, nvidia-cusolver-cu11, nvidia-cudnn-cu11, torch, torchvision, torchaudio
+  Attempting uninstall: triton
+    Found existing installation: triton 2.0.0
+    Uninstalling triton-2.0.0:
+      Successfully uninstalled triton-2.0.0
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.12
+    Uninstalling sympy-1.12:
+      Successfully uninstalled sympy-1.12
+  Attempting uninstall: nvidia-nvtx-cu11
+    Found existing installation: nvidia-nvtx-cu11 11.7.91
+    Uninstalling nvidia-nvtx-cu11-11.7.91:
+      Successfully uninstalled nvidia-nvtx-cu11-11.7.91
+  Attempting uninstall: nvidia-nccl-cu11
+    Found existing installation: nvidia-nccl-cu11 2.14.3
+    Uninstalling nvidia-nccl-cu11-2.14.3:
+      Successfully uninstalled nvidia-nccl-cu11-2.14.3
+  Attempting uninstall: nvidia-cusparse-cu11
+    Found existing installation: nvidia-cusparse-cu11 11.7.4.91
+    Uninstalling nvidia-cusparse-cu11-11.7.4.91:
+      Successfully uninstalled nvidia-cusparse-cu11-11.7.4.91
+  Attempting uninstall: nvidia-curand-cu11
+    Found existing installation: nvidia-curand-cu11 10.2.10.91
+    Uninstalling nvidia-curand-cu11-10.2.10.91:
+      Successfully uninstalled nvidia-curand-cu11-10.2.10.91
+  Attempting uninstall: nvidia-cuda-runtime-cu11
+    Found existing installation: nvidia-cuda-runtime-cu11 11.7.99
+    Uninstalling nvidia-cuda-runtime-cu11-11.7.99:
+      Successfully uninstalled nvidia-cuda-runtime-cu11-11.7.99
+  Attempting uninstall: nvidia-cuda-nvrtc-cu11
+    Found existing installation: nvidia-cuda-nvrtc-cu11 11.7.99
+    Uninstalling nvidia-cuda-nvrtc-cu11-11.7.99:
+      Successfully uninstalled nvidia-cuda-nvrtc-cu11-11.7.99
+  Attempting uninstall: nvidia-cuda-cupti-cu11
+    Found existing installation: nvidia-cuda-cupti-cu11 11.7.101
+    Uninstalling nvidia-cuda-cupti-cu11-11.7.101:
+      Successfully uninstalled nvidia-cuda-cupti-cu11-11.7.101
+  Attempting uninstall: nvidia-cublas-cu11
+    Found existing installation: nvidia-cublas-cu11 11.10.3.66
+    Uninstalling nvidia-cublas-cu11-11.10.3.66:
+      Successfully uninstalled nvidia-cublas-cu11-11.10.3.66
+  Attempting uninstall: nvidia-cusolver-cu11
+    Found existing installation: nvidia-cusolver-cu11 11.4.0.1
+    Uninstalling nvidia-cusolver-cu11-11.4.0.1:
+      Successfully uninstalled nvidia-cusolver-cu11-11.4.0.1
+  Attempting uninstall: nvidia-cudnn-cu11
+    Found existing installation: nvidia-cudnn-cu11 8.5.0.96
+    Uninstalling nvidia-cudnn-cu11-8.5.0.96:
+      Successfully uninstalled nvidia-cudnn-cu11-8.5.0.96
+Successfully installed nvidia-cublas-cu11-11.11.3.6 nvidia-cuda-cupti-cu11-11.8.87 nvidia-cuda-nvrtc-cu11-11.8.89 nvidia-cuda-runtime-cu11-11.8.89 nvidia-cudnn-cu11-9.1.0.70 nvidia-curand-cu11-10.3.0.86 nvidia-cusolver-cu11-11.4.1.48 nvidia-cusparse-cu11-11.7.5.86 nvidia-nccl-cu11-2.21.5 nvidia-nvtx-cu11-11.8.86 sympy-1.13.1 torch-2.5.1+cu118 torchaudio-2.5.1+cu118 torchvision-0.20.1+cu118 triton-3.1.0
+Files already downloaded and verified
+Files already downloaded and verified
+Training auxiliary models...
+Epoch 1, conv1 Loss: 90.1927, layer1.0.conv1 Loss: 6.2387, layer1.0.conv2 Loss: 4.8328, layer1.1.conv1 Loss: 6.1318, layer1.1.conv2 Loss: 4.8642, layer2.0.conv1 Loss: 4.8327, layer2.0.conv2 Loss: 4.6780, layer2.1.conv1 Loss: 4.7505, layer2.1.conv2 Loss: 4.5128, layer3.0.conv1 Loss: 4.7041, layer3.0.conv2 Loss: 3.7101, layer3.1.conv1 Loss: 4.6594, layer3.1.conv2 Loss: 3.0038, layer4.0.conv1 Loss: 4.6427, layer4.0.conv2 Loss: 2.6462, layer4.1.conv1 Loss: 4.6419, layer4.1.conv2 Loss: 1.6899
+Epoch 2, conv1 Loss: 35.6009, layer1.0.conv1 Loss: 4.6061, layer1.0.conv2 Loss: 4.6059, layer1.1.conv1 Loss: 4.6292, layer1.1.conv2 Loss: 4.6059, layer2.0.conv1 Loss: 4.6094, layer2.0.conv2 Loss: 4.6122, layer2.1.conv1 Loss: 4.6112, layer2.1.conv2 Loss: 4.3697, layer3.0.conv1 Loss: 4.6061, layer3.0.conv2 Loss: 3.2028, layer3.1.conv1 Loss: 4.6072, layer3.1.conv2 Loss: 2.1588, layer4.0.conv1 Loss: 4.6059, layer4.0.conv2 Loss: 1.7290, layer4.1.conv1 Loss: 4.6059, layer4.1.conv2 Loss: 1.0200
+Epoch 3, conv1 Loss: 15.2930, layer1.0.conv1 Loss: 4.6058, layer1.0.conv2 Loss: 4.6058, layer1.1.conv1 Loss: 4.6058, layer1.1.conv2 Loss: 4.6058, layer2.0.conv1 Loss: 4.6058, layer2.0.conv2 Loss: 4.6058, layer2.1.conv1 Loss: 4.6058, layer2.1.conv2 Loss: 4.0917, layer3.0.conv1 Loss: 4.6058, layer3.0.conv2 Loss: 3.0899, layer3.1.conv1 Loss: 4.6058, layer3.1.conv2 Loss: 1.9197, layer4.0.conv1 Loss: 4.6058, layer4.0.conv2 Loss: 1.5312, layer4.1.conv1 Loss: 4.6058, layer4.1.conv2 Loss: 0.8262
+Evaluating models...
+main Accuracy: 0.88%
+conv1 Accuracy: 3.81%
+layer1.0.conv1 Accuracy: 1.00%
+layer1.0.conv2 Accuracy: 1.00%
+layer1.1.conv1 Accuracy: 1.00%
+layer1.1.conv2 Accuracy: 1.00%
+layer2.0.conv1 Accuracy: 1.00%
+layer2.0.conv2 Accuracy: 1.00%
+layer2.1.conv1 Accuracy: 1.00%
+layer2.1.conv2 Accuracy: 6.47%
+layer3.0.conv1 Accuracy: 1.00%
+layer3.0.conv2 Accuracy: 15.16%
+layer3.1.conv1 Accuracy: 1.00%
+layer3.1.conv2 Accuracy: 40.77%
+layer4.0.conv1 Accuracy: 1.00%
+layer4.0.conv2 Accuracy: 51.49%
+layer4.1.conv1 Accuracy: 1.00%
+layer4.1.conv2 Accuracy: 64.46%

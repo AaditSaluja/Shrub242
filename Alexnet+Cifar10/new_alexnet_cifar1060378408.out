@@ -1,0 +1,99 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Training the main model (AlexNet)...
+Epoch 1, Main Model Loss: 1.7166
+Epoch 2, Main Model Loss: 1.3664
+Epoch 3, Main Model Loss: 1.2355
+Epoch 4, Main Model Loss: 1.1499
+Epoch 5, Main Model Loss: 1.0777
+Epoch 6, Main Model Loss: 1.0292
+Epoch 7, Main Model Loss: 0.9699
+Epoch 8, Main Model Loss: 0.9384
+Epoch 9, Main Model Loss: 0.9023
+Epoch 10, Main Model Loss: 0.8793
+Epoch 11, Main Model Loss: 0.8529
+Epoch 12, Main Model Loss: 0.8258
+Epoch 13, Main Model Loss: 0.8105
+Epoch 14, Main Model Loss: 0.7916
+Epoch 15, Main Model Loss: 0.7661
+Time taken to train main model: 1129.33 seconds
+Training auxiliary models...
+Epoch 1, conv1 Loss: 1.8257, conv2 Loss: 1.3322, conv3 Loss: 1.1307, conv4 Loss: 1.0367, conv5 Loss: 0.9281
+Epoch 2, conv1 Loss: 1.3026, conv2 Loss: 1.0764, conv3 Loss: 0.7599, conv4 Loss: 0.6496, conv5 Loss: 0.5118
+Epoch 3, conv1 Loss: 1.2085, conv2 Loss: 0.9144, conv3 Loss: 0.4848, conv4 Loss: 0.3482, conv5 Loss: 0.2399
+Epoch 4, conv1 Loss: 1.1400, conv2 Loss: 0.7680, conv3 Loss: 0.2708, conv4 Loss: 0.1400, conv5 Loss: 0.0787
+Epoch 5, conv1 Loss: 1.0887, conv2 Loss: 0.6371, conv3 Loss: 0.1366, conv4 Loss: 0.0539, conv5 Loss: 0.0223
+Time taken to train auxiliary models: 372.59 seconds
+Evaluating models...
+
+Class-wise accuracy for main:
+Class 0 (airplane): 76.60%
+Class 1 (automobile): 84.80%
+Class 2 (bird): 54.00%
+Class 3 (cat): 58.90%
+Class 4 (deer): 69.90%
+Class 5 (dog): 53.30%
+Class 6 (frog): 79.30%
+Class 7 (horse): 72.40%
+Class 8 (ship): 77.10%
+Class 9 (truck): 73.50%
+
+Class-wise accuracy for conv1:
+Class 0 (airplane): 60.80%
+Class 1 (automobile): 68.50%
+Class 2 (bird): 46.20%
+Class 3 (cat): 44.40%
+Class 4 (deer): 46.80%
+Class 5 (dog): 25.50%
+Class 6 (frog): 71.40%
+Class 7 (horse): 60.10%
+Class 8 (ship): 68.60%
+Class 9 (truck): 42.10%
+
+Class-wise accuracy for conv2:
+Class 0 (airplane): 62.30%
+Class 1 (automobile): 75.80%
+Class 2 (bird): 46.10%
+Class 3 (cat): 39.00%
+Class 4 (deer): 47.50%
+Class 5 (dog): 45.60%
+Class 6 (frog): 70.90%
+Class 7 (horse): 63.20%
+Class 8 (ship): 66.70%
+Class 9 (truck): 64.50%
+
+Class-wise accuracy for conv3:
+Class 0 (airplane): 72.60%
+Class 1 (automobile): 70.70%
+Class 2 (bird): 52.50%
+Class 3 (cat): 54.80%
+Class 4 (deer): 55.20%
+Class 5 (dog): 40.90%
+Class 6 (frog): 78.00%
+Class 7 (horse): 68.60%
+Class 8 (ship): 72.00%
+Class 9 (truck): 78.90%
+
+Class-wise accuracy for conv4:
+Class 0 (airplane): 67.30%
+Class 1 (automobile): 82.10%
+Class 2 (bird): 56.10%
+Class 3 (cat): 46.90%
+Class 4 (deer): 57.40%
+Class 5 (dog): 45.50%
+Class 6 (frog): 79.30%
+Class 7 (horse): 73.00%
+Class 8 (ship): 77.80%
+Class 9 (truck): 74.50%
+
+Class-wise accuracy for conv5:
+Class 0 (airplane): 71.60%
+Class 1 (automobile): 78.80%
+Class 2 (bird): 57.90%
+Class 3 (cat): 43.00%
+Class 4 (deer): 57.00%
+Class 5 (dog): 55.90%
+Class 6 (frog): 71.30%
+Class 7 (horse): 71.90%
+Class 8 (ship): 73.70%
+Class 9 (truck): 74.30%

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/n/home13/asaluja/Shrub2/ResNet18+ImageNet/resnet18+imagenet.py", line 24, in <module>
+    train_dataset = datasets.ImageNet(root=data_dir, split='train', transform=transform)
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torchvision/datasets/imagenet.py", line 46, in __init__
+    self.parse_archives()
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torchvision/datasets/imagenet.py", line 59, in parse_archives
+    parse_devkit_archive(self.root)
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torchvision/datasets/imagenet.py", line 140, in parse_devkit_archive
+    _verify_archive(root, file, md5)
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torchvision/datasets/imagenet.py", line 96, in _verify_archive
+    raise RuntimeError(msg.format(file, root))
+RuntimeError: The archive ILSVRC2012_devkit_t12.tar.gz is not present in the root directory or is corrupted. You need to download it externally and place it in /path/to/imagenet/.

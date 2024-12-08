@@ -1,0 +1,6 @@
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: scipy in /n/home13/asaluja/.local/lib/python3.10/site-packages (1.14.1)
+Requirement already satisfied: numpy<2.3,>=1.23.5 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from scipy) (1.26.4)
+Downloading https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz to ./data/cifar-100-python.tar.gz
+Extracting ./data/cifar-100-python.tar.gz to ./data
+Files already downloaded and verified

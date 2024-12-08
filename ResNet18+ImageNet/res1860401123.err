@@ -1,0 +1,8 @@
+  WARNING: The scripts convert-caffe2-to-onnx, convert-onnx-to-caffe2, torchfrtrace and torchrun are installed in '/n/home13/asaluja/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: '/n/home13/asaluja/.local/lib/python3.10/site-packages/torch-2.5.1+cu118.dist-info/INSTALLER4yvt72cj.tmp'
+
+Traceback (most recent call last):
+  File "/n/home13/asaluja/Shrub2/ResNet18+ImageNet/resnet18+imagenet.py", line 359, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'

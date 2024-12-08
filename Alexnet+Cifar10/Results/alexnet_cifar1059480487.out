@@ -1,0 +1,23 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Training the main model (AlexNet)...
+Epoch 1, Main Model Loss: 1.6935
+Epoch 2, Main Model Loss: 1.3411
+Epoch 3, Main Model Loss: 1.2047
+Epoch 4, Main Model Loss: 1.1073
+Epoch 5, Main Model Loss: 1.0369
+Time taken to train main model: 371.69 seconds
+Training auxiliary models...
+Epoch 1, conv1 Loss: 1.7248, conv2 Loss: 1.3673, conv3 Loss: 1.1435, conv4 Loss: 1.1242, conv5 Loss: 1.0602
+Epoch 2, conv1 Loss: 1.3218, conv2 Loss: 1.1201, conv3 Loss: 0.8271, conv4 Loss: 0.8771, conv5 Loss: 0.7760
+Epoch 3, conv1 Loss: 1.2313, conv2 Loss: 0.9806, conv3 Loss: 0.5965, conv4 Loss: 0.7076, conv5 Loss: 0.5816
+Epoch 4, conv1 Loss: 1.1654, conv2 Loss: 0.8605, conv3 Loss: 0.3884, conv4 Loss: 0.5420, conv5 Loss: 0.3945
+Epoch 5, conv1 Loss: 1.1193, conv2 Loss: 0.7476, conv3 Loss: 0.2224, conv4 Loss: 0.3826, conv5 Loss: 0.2322
+Time taken to train auxiliary models: 387.71 seconds
+Evaluating models...
+Accuracy for main: 63.11%
+Accuracy for conv1: 55.04%
+Accuracy for conv2: 58.08%
+Accuracy for conv3: 66.31%
+Accuracy for conv4: 65.44%
+Accuracy for conv5: 64.28%

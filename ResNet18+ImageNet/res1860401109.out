@@ -1,0 +1,52 @@
+Defaulting to user installation because normal site-packages is not writeable
+Looking in indexes: https://download.pytorch.org/whl/cu118
+Requirement already satisfied: torch in /n/home13/asaluja/.local/lib/python3.10/site-packages (2.5.1+cu118)
+Collecting torchvision
+  Downloading https://download.pytorch.org/whl/cu118/torchvision-0.20.1%2Bcu118-cp310-cp310-linux_x86_64.whl (6.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.5/6.5 MB 110.3 MB/s eta 0:00:00
+Collecting torchaudio
+  Downloading https://download.pytorch.org/whl/cu118/torchaudio-2.5.1%2Bcu118-cp310-cp310-linux_x86_64.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 120.8 MB/s eta 0:00:00
+Requirement already satisfied: sympy==1.13.1 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (1.13.1)
+Requirement already satisfied: nvidia-cusparse-cu11==11.7.5.86 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (11.7.5.86)
+Requirement already satisfied: networkx in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (3.2.1)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu11==11.8.89 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (11.8.89)
+Requirement already satisfied: nvidia-nccl-cu11==2.21.5 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (2.21.5)
+Requirement already satisfied: nvidia-nvtx-cu11==11.8.86 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (11.8.86)
+Requirement already satisfied: triton==3.1.0 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (3.1.0)
+Requirement already satisfied: nvidia-cuda-runtime-cu11==11.8.89 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (11.8.89)
+Requirement already satisfied: fsspec in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (2024.3.1)
+Requirement already satisfied: nvidia-cuda-cupti-cu11==11.8.87 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (11.8.87)
+Requirement already satisfied: nvidia-cudnn-cu11==9.1.0.70 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (9.1.0.70)
+Requirement already satisfied: jinja2 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (3.1.3)
+Requirement already satisfied: typing-extensions>=4.8.0 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (4.10.0)
+Requirement already satisfied: nvidia-cusolver-cu11==11.4.1.48 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (11.4.1.48)
+Requirement already satisfied: nvidia-curand-cu11==10.3.0.86 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (10.3.0.86)
+Requirement already satisfied: nvidia-cublas-cu11==11.11.3.6 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (11.11.3.6)
+Requirement already satisfied: nvidia-cufft-cu11==10.9.0.58 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (10.9.0.58)
+Requirement already satisfied: filelock in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torch) (3.13.1)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from sympy==1.13.1->torch) (1.3.0)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torchvision) (10.2.0)
+Requirement already satisfied: numpy in /n/home13/asaluja/.local/lib/python3.10/site-packages (from torchvision) (1.26.4)
+Requirement already satisfied: MarkupSafe>=2.0 in /n/home13/asaluja/.local/lib/python3.10/site-packages (from jinja2->torch) (2.1.5)
+Installing collected packages: torchvision, torchaudio
+Successfully installed torchaudio-2.5.1+cu118 torchvision-0.20.1+cu118
+Files already downloaded and verified
+Files already downloaded and verified
+Training the main model...
+Epoch 1, Loss: 2.3802, Training Accuracy: 42.63%
+Epoch 2, Loss: 1.6178, Training Accuracy: 56.27%
+Epoch 3, Loss: 1.4792, Training Accuracy: 59.22%
+Epoch 4, Loss: 1.4055, Training Accuracy: 60.97%
+Epoch 5, Loss: 1.3595, Training Accuracy: 61.69%
+Epoch 6, Loss: 1.3235, Training Accuracy: 62.68%
+Epoch 7, Loss: 1.2940, Training Accuracy: 63.43%
+Epoch 8, Loss: 1.2724, Training Accuracy: 64.00%
+Epoch 9, Loss: 1.2517, Training Accuracy: 64.39%
+Epoch 10, Loss: 1.2328, Training Accuracy: 65.01%
+Epoch 11, Loss: 1.2120, Training Accuracy: 65.67%
+Epoch 12, Loss: 1.2038, Training Accuracy: 65.75%
+Epoch 13, Loss: 1.1950, Training Accuracy: 65.94%
+Epoch 14, Loss: 1.1829, Training Accuracy: 66.32%
+Epoch 15, Loss: 1.1760, Training Accuracy: 66.38%
+Training auxiliary models...

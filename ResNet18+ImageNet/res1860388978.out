@@ -1,0 +1,73 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Training the main model...
+Epoch 1, Loss: 2.3830, Training Accuracy: 42.78%
+Epoch 2, Loss: 1.6108, Training Accuracy: 56.42%
+Epoch 3, Loss: 1.4759, Training Accuracy: 59.14%
+Epoch 4, Loss: 1.4024, Training Accuracy: 61.03%
+Epoch 5, Loss: 1.3540, Training Accuracy: 62.24%
+Epoch 6, Loss: 1.3205, Training Accuracy: 62.66%
+Epoch 7, Loss: 1.2937, Training Accuracy: 63.53%
+Epoch 8, Loss: 1.2680, Training Accuracy: 63.87%
+Epoch 9, Loss: 1.2496, Training Accuracy: 64.48%
+Epoch 10, Loss: 1.2312, Training Accuracy: 65.15%
+Epoch 11, Loss: 1.2213, Training Accuracy: 64.94%
+Epoch 12, Loss: 1.2025, Training Accuracy: 65.56%
+Epoch 13, Loss: 1.1931, Training Accuracy: 65.72%
+Epoch 14, Loss: 1.1837, Training Accuracy: 66.22%
+Epoch 15, Loss: 1.1754, Training Accuracy: 66.31%
+Epoch 16, Loss: 1.1615, Training Accuracy: 66.53%
+Epoch 17, Loss: 1.1556, Training Accuracy: 66.79%
+Epoch 18, Loss: 1.1434, Training Accuracy: 66.93%
+Epoch 19, Loss: 1.1400, Training Accuracy: 67.36%
+Epoch 20, Loss: 1.1330, Training Accuracy: 67.23%
+Epoch 21, Loss: 1.1320, Training Accuracy: 67.38%
+Epoch 22, Loss: 1.1208, Training Accuracy: 67.69%
+Epoch 23, Loss: 1.1175, Training Accuracy: 67.93%
+Epoch 24, Loss: 1.1111, Training Accuracy: 68.00%
+Epoch 25, Loss: 1.1067, Training Accuracy: 67.92%
+Training auxiliary models...
+Epoch 1, conv1 Loss: 4.2103, layer1.0.conv1 Loss: 4.3171, layer1.0.conv2 Loss: 4.2648, layer1.1.conv1 Loss: 4.2684, layer1.1.conv2 Loss: 4.3526, layer2.0.conv1 Loss: 4.2101, layer2.0.conv2 Loss: 4.2998, layer2.1.conv1 Loss: 4.2275, layer2.1.conv2 Loss: 4.3354, layer3.0.conv1 Loss: 3.8927, layer3.0.conv2 Loss: 3.6972, layer3.1.conv1 Loss: 4.1067, layer3.1.conv2 Loss: 4.1637, layer4.0.conv1 Loss: 4.0535, layer4.0.conv2 Loss: 4.1486, layer4.1.conv1 Loss: 4.5539, layer4.1.conv2 Loss: 2.9928
+Epoch 2, conv1 Loss: 4.0962, layer1.0.conv1 Loss: 4.0680, layer1.0.conv2 Loss: 3.9145, layer1.1.conv1 Loss: 3.9097, layer1.1.conv2 Loss: 4.0211, layer2.0.conv1 Loss: 3.7948, layer2.0.conv2 Loss: 3.8958, layer2.1.conv1 Loss: 3.7265, layer2.1.conv2 Loss: 3.8891, layer3.0.conv1 Loss: 3.3054, layer3.0.conv2 Loss: 3.0405, layer3.1.conv1 Loss: 3.4432, layer3.1.conv2 Loss: 3.4665, layer4.0.conv1 Loss: 3.2683, layer4.0.conv2 Loss: 3.2603, layer4.1.conv1 Loss: 4.4092, layer4.1.conv2 Loss: 1.9339
+Epoch 3, conv1 Loss: 4.0362, layer1.0.conv1 Loss: 3.9793, layer1.0.conv2 Loss: 3.8004, layer1.1.conv1 Loss: 3.8116, layer1.1.conv2 Loss: 3.8665, layer2.0.conv1 Loss: 3.6682, layer2.0.conv2 Loss: 3.6829, layer2.1.conv1 Loss: 3.5177, layer2.1.conv2 Loss: 3.6561, layer3.0.conv1 Loss: 3.1270, layer3.0.conv2 Loss: 2.8347, layer3.1.conv1 Loss: 3.2202, layer3.1.conv2 Loss: 3.1869, layer4.0.conv1 Loss: 2.9897, layer4.0.conv2 Loss: 2.9434, layer4.1.conv1 Loss: 4.3319, layer4.1.conv2 Loss: 1.6920
+Epoch 4, conv1 Loss: 3.9915, layer1.0.conv1 Loss: 3.9107, layer1.0.conv2 Loss: 3.7410, layer1.1.conv1 Loss: 3.7585, layer1.1.conv2 Loss: 3.7791, layer2.0.conv1 Loss: 3.5913, layer2.0.conv2 Loss: 3.5620, layer2.1.conv1 Loss: 3.4191, layer2.1.conv2 Loss: 3.5286, layer3.0.conv1 Loss: 3.0179, layer3.0.conv2 Loss: 2.7076, layer3.1.conv1 Loss: 3.0869, layer3.1.conv2 Loss: 3.0347, layer4.0.conv1 Loss: 2.8340, layer4.0.conv2 Loss: 2.7734, layer4.1.conv1 Loss: 4.2821, layer4.1.conv2 Loss: 1.5692
+Epoch 5, conv1 Loss: 3.9564, layer1.0.conv1 Loss: 3.8528, layer1.0.conv2 Loss: 3.6931, layer1.1.conv1 Loss: 3.7090, layer1.1.conv2 Loss: 3.7154, layer2.0.conv1 Loss: 3.5325, layer2.0.conv2 Loss: 3.4831, layer2.1.conv1 Loss: 3.3548, layer2.1.conv2 Loss: 3.4423, layer3.0.conv1 Loss: 2.9381, layer3.0.conv2 Loss: 2.6166, layer3.1.conv1 Loss: 2.9868, layer3.1.conv2 Loss: 2.9239, layer4.0.conv1 Loss: 2.7274, layer4.0.conv2 Loss: 2.6533, layer4.1.conv1 Loss: 4.2462, layer4.1.conv2 Loss: 1.4904
+Epoch 6, conv1 Loss: 3.9321, layer1.0.conv1 Loss: 3.8050, layer1.0.conv2 Loss: 3.6494, layer1.1.conv1 Loss: 3.6625, layer1.1.conv2 Loss: 3.6646, layer2.0.conv1 Loss: 3.4857, layer2.0.conv2 Loss: 3.4261, layer2.1.conv1 Loss: 3.3034, layer2.1.conv2 Loss: 3.3753, layer3.0.conv1 Loss: 2.8761, layer3.0.conv2 Loss: 2.5452, layer3.1.conv1 Loss: 2.9095, layer3.1.conv2 Loss: 2.8355, layer4.0.conv1 Loss: 2.6507, layer4.0.conv2 Loss: 2.5551, layer4.1.conv1 Loss: 4.2193, layer4.1.conv2 Loss: 1.4318
+Epoch 7, conv1 Loss: 3.9166, layer1.0.conv1 Loss: 3.7647, layer1.0.conv2 Loss: 3.6097, layer1.1.conv1 Loss: 3.6189, layer1.1.conv2 Loss: 3.6231, layer2.0.conv1 Loss: 3.4452, layer2.0.conv2 Loss: 3.3802, layer2.1.conv1 Loss: 3.2588, layer2.1.conv2 Loss: 3.3194, layer3.0.conv1 Loss: 2.8262, layer3.0.conv2 Loss: 2.4881, layer3.1.conv1 Loss: 2.8479, layer3.1.conv2 Loss: 2.7628, layer4.0.conv1 Loss: 2.5947, layer4.0.conv2 Loss: 2.4729, layer4.1.conv1 Loss: 4.1968, layer4.1.conv2 Loss: 1.3875
+Epoch 8, conv1 Loss: 3.9049, layer1.0.conv1 Loss: 3.7314, layer1.0.conv2 Loss: 3.5726, layer1.1.conv1 Loss: 3.5816, layer1.1.conv2 Loss: 3.5883, layer2.0.conv1 Loss: 3.4098, layer2.0.conv2 Loss: 3.3434, layer2.1.conv1 Loss: 3.2222, layer2.1.conv2 Loss: 3.2713, layer3.0.conv1 Loss: 2.7845, layer3.0.conv2 Loss: 2.4385, layer3.1.conv1 Loss: 2.7948, layer3.1.conv2 Loss: 2.7017, layer4.0.conv1 Loss: 2.5500, layer4.0.conv2 Loss: 2.4034, layer4.1.conv1 Loss: 4.1795, layer4.1.conv2 Loss: 1.3510
+Epoch 9, conv1 Loss: 3.8929, layer1.0.conv1 Loss: 3.7017, layer1.0.conv2 Loss: 3.5382, layer1.1.conv1 Loss: 3.5489, layer1.1.conv2 Loss: 3.5566, layer2.0.conv1 Loss: 3.3775, layer2.0.conv2 Loss: 3.3116, layer2.1.conv1 Loss: 3.1876, layer2.1.conv2 Loss: 3.2297, layer3.0.conv1 Loss: 2.7476, layer3.0.conv2 Loss: 2.3956, layer3.1.conv1 Loss: 2.7490, layer3.1.conv2 Loss: 2.6486, layer4.0.conv1 Loss: 2.5143, layer4.0.conv2 Loss: 2.3419, layer4.1.conv1 Loss: 4.1639, layer4.1.conv2 Loss: 1.3192
+Epoch 10, conv1 Loss: 3.8815, layer1.0.conv1 Loss: 3.6772, layer1.0.conv2 Loss: 3.5065, layer1.1.conv1 Loss: 3.5209, layer1.1.conv2 Loss: 3.5272, layer2.0.conv1 Loss: 3.3479, layer2.0.conv2 Loss: 3.2824, layer2.1.conv1 Loss: 3.1556, layer2.1.conv2 Loss: 3.1919, layer3.0.conv1 Loss: 2.7138, layer3.0.conv2 Loss: 2.3564, layer3.1.conv1 Loss: 2.7084, layer3.1.conv2 Loss: 2.6012, layer4.0.conv1 Loss: 2.4824, layer4.0.conv2 Loss: 2.2887, layer4.1.conv1 Loss: 4.1513, layer4.1.conv2 Loss: 1.2905
+Epoch 11, conv1 Loss: 3.8707, layer1.0.conv1 Loss: 3.6567, layer1.0.conv2 Loss: 3.4788, layer1.1.conv1 Loss: 3.4982, layer1.1.conv2 Loss: 3.5020, layer2.0.conv1 Loss: 3.3239, layer2.0.conv2 Loss: 3.2589, layer2.1.conv1 Loss: 3.1293, layer2.1.conv2 Loss: 3.1594, layer3.0.conv1 Loss: 2.6852, layer3.0.conv2 Loss: 2.3254, layer3.1.conv1 Loss: 2.6726, layer3.1.conv2 Loss: 2.5613, layer4.0.conv1 Loss: 2.4566, layer4.0.conv2 Loss: 2.2448, layer4.1.conv1 Loss: 4.1403, layer4.1.conv2 Loss: 1.2682
+Epoch 12, conv1 Loss: 3.8591, layer1.0.conv1 Loss: 3.6359, layer1.0.conv2 Loss: 3.4525, layer1.1.conv1 Loss: 3.4764, layer1.1.conv2 Loss: 3.4778, layer2.0.conv1 Loss: 3.2979, layer2.0.conv2 Loss: 3.2366, layer2.1.conv1 Loss: 3.1029, layer2.1.conv2 Loss: 3.1297, layer3.0.conv1 Loss: 2.6587, layer3.0.conv2 Loss: 2.2960, layer3.1.conv1 Loss: 2.6406, layer3.1.conv2 Loss: 2.5255, layer4.0.conv1 Loss: 2.4353, layer4.0.conv2 Loss: 2.2067, layer4.1.conv1 Loss: 4.1315, layer4.1.conv2 Loss: 1.2459
+Epoch 13, conv1 Loss: 3.8472, layer1.0.conv1 Loss: 3.6197, layer1.0.conv2 Loss: 3.4280, layer1.1.conv1 Loss: 3.4568, layer1.1.conv2 Loss: 3.4546, layer2.0.conv1 Loss: 3.2759, layer2.0.conv2 Loss: 3.2150, layer2.1.conv1 Loss: 3.0774, layer2.1.conv2 Loss: 3.1006, layer3.0.conv1 Loss: 2.6332, layer3.0.conv2 Loss: 2.2672, layer3.1.conv1 Loss: 2.6086, layer3.1.conv2 Loss: 2.4921, layer4.0.conv1 Loss: 2.4152, layer4.0.conv2 Loss: 2.1728, layer4.1.conv1 Loss: 4.1233, layer4.1.conv2 Loss: 1.2252
+Epoch 14, conv1 Loss: 3.8356, layer1.0.conv1 Loss: 3.6056, layer1.0.conv2 Loss: 3.4063, layer1.1.conv1 Loss: 3.4406, layer1.1.conv2 Loss: 3.4328, layer2.0.conv1 Loss: 3.2546, layer2.0.conv2 Loss: 3.1950, layer2.1.conv1 Loss: 3.0540, layer2.1.conv2 Loss: 3.0739, layer3.0.conv1 Loss: 2.6089, layer3.0.conv2 Loss: 2.2426, layer3.1.conv1 Loss: 2.5818, layer3.1.conv2 Loss: 2.4609, layer4.0.conv1 Loss: 2.3982, layer4.0.conv2 Loss: 2.1420, layer4.1.conv1 Loss: 4.1156, layer4.1.conv2 Loss: 1.2074
+Epoch 15, conv1 Loss: 3.8242, layer1.0.conv1 Loss: 3.5896, layer1.0.conv2 Loss: 3.3861, layer1.1.conv1 Loss: 3.4233, layer1.1.conv2 Loss: 3.4134, layer2.0.conv1 Loss: 3.2353, layer2.0.conv2 Loss: 3.1786, layer2.1.conv1 Loss: 3.0331, layer2.1.conv2 Loss: 3.0501, layer3.0.conv1 Loss: 2.5875, layer3.0.conv2 Loss: 2.2203, layer3.1.conv1 Loss: 2.5558, layer3.1.conv2 Loss: 2.4340, layer4.0.conv1 Loss: 2.3815, layer4.0.conv2 Loss: 2.1165, layer4.1.conv1 Loss: 4.1090, layer4.1.conv2 Loss: 1.1894
+Epoch 16, conv1 Loss: 3.8136, layer1.0.conv1 Loss: 3.5766, layer1.0.conv2 Loss: 3.3666, layer1.1.conv1 Loss: 3.4072, layer1.1.conv2 Loss: 3.3939, layer2.0.conv1 Loss: 3.2161, layer2.0.conv2 Loss: 3.1610, layer2.1.conv1 Loss: 3.0125, layer2.1.conv2 Loss: 3.0269, layer3.0.conv1 Loss: 2.5657, layer3.0.conv2 Loss: 2.1987, layer3.1.conv1 Loss: 2.5325, layer3.1.conv2 Loss: 2.4072, layer4.0.conv1 Loss: 2.3683, layer4.0.conv2 Loss: 2.0916, layer4.1.conv1 Loss: 4.1034, layer4.1.conv2 Loss: 1.1729
+Epoch 17, conv1 Loss: 3.8038, layer1.0.conv1 Loss: 3.5644, layer1.0.conv2 Loss: 3.3491, layer1.1.conv1 Loss: 3.3936, layer1.1.conv2 Loss: 3.3754, layer2.0.conv1 Loss: 3.1986, layer2.0.conv2 Loss: 3.1466, layer2.1.conv1 Loss: 2.9951, layer2.1.conv2 Loss: 3.0052, layer3.0.conv1 Loss: 2.5478, layer3.0.conv2 Loss: 2.1814, layer3.1.conv1 Loss: 2.5127, layer3.1.conv2 Loss: 2.3845, layer4.0.conv1 Loss: 2.3576, layer4.0.conv2 Loss: 2.0717, layer4.1.conv1 Loss: 4.0982, layer4.1.conv2 Loss: 1.1587
+Epoch 18, conv1 Loss: 3.7956, layer1.0.conv1 Loss: 3.5540, layer1.0.conv2 Loss: 3.3335, layer1.1.conv1 Loss: 3.3809, layer1.1.conv2 Loss: 3.3589, layer2.0.conv1 Loss: 3.1821, layer2.0.conv2 Loss: 3.1325, layer2.1.conv1 Loss: 2.9781, layer2.1.conv2 Loss: 2.9859, layer3.0.conv1 Loss: 2.5315, layer3.0.conv2 Loss: 2.1626, layer3.1.conv1 Loss: 2.4931, layer3.1.conv2 Loss: 2.3628, layer4.0.conv1 Loss: 2.3456, layer4.0.conv2 Loss: 2.0522, layer4.1.conv1 Loss: 4.0929, layer4.1.conv2 Loss: 1.1441
+Epoch 19, conv1 Loss: 3.7864, layer1.0.conv1 Loss: 3.5435, layer1.0.conv2 Loss: 3.3184, layer1.1.conv1 Loss: 3.3679, layer1.1.conv2 Loss: 3.3443, layer2.0.conv1 Loss: 3.1682, layer2.0.conv2 Loss: 3.1198, layer2.1.conv1 Loss: 2.9627, layer2.1.conv2 Loss: 2.9665, layer3.0.conv1 Loss: 2.5182, layer3.0.conv2 Loss: 2.1493, layer3.1.conv1 Loss: 2.4779, layer3.1.conv2 Loss: 2.3429, layer4.0.conv1 Loss: 2.3371, layer4.0.conv2 Loss: 2.0359, layer4.1.conv1 Loss: 4.0881, layer4.1.conv2 Loss: 1.1304
+Epoch 20, conv1 Loss: 3.7788, layer1.0.conv1 Loss: 3.5345, layer1.0.conv2 Loss: 3.3033, layer1.1.conv1 Loss: 3.3540, layer1.1.conv2 Loss: 3.3277, layer2.0.conv1 Loss: 3.1523, layer2.0.conv2 Loss: 3.1058, layer2.1.conv1 Loss: 2.9460, layer2.1.conv2 Loss: 2.9478, layer3.0.conv1 Loss: 2.5008, layer3.0.conv2 Loss: 2.1300, layer3.1.conv1 Loss: 2.4575, layer3.1.conv2 Loss: 2.3204, layer4.0.conv1 Loss: 2.3240, layer4.0.conv2 Loss: 2.0170, layer4.1.conv1 Loss: 4.0844, layer4.1.conv2 Loss: 1.1154
+Epoch 21, conv1 Loss: 3.7713, layer1.0.conv1 Loss: 3.5234, layer1.0.conv2 Loss: 3.2887, layer1.1.conv1 Loss: 3.3423, layer1.1.conv2 Loss: 3.3130, layer2.0.conv1 Loss: 3.1370, layer2.0.conv2 Loss: 3.0939, layer2.1.conv1 Loss: 2.9335, layer2.1.conv2 Loss: 2.9312, layer3.0.conv1 Loss: 2.4871, layer3.0.conv2 Loss: 2.1167, layer3.1.conv1 Loss: 2.4427, layer3.1.conv2 Loss: 2.3032, layer4.0.conv1 Loss: 2.3165, layer4.0.conv2 Loss: 2.0032, layer4.1.conv1 Loss: 4.0810, layer4.1.conv2 Loss: 1.1034
+Epoch 22, conv1 Loss: 3.7646, layer1.0.conv1 Loss: 3.5139, layer1.0.conv2 Loss: 3.2763, layer1.1.conv1 Loss: 3.3316, layer1.1.conv2 Loss: 3.2992, layer2.0.conv1 Loss: 3.1251, layer2.0.conv2 Loss: 3.0818, layer2.1.conv1 Loss: 2.9199, layer2.1.conv2 Loss: 2.9154, layer3.0.conv1 Loss: 2.4731, layer3.0.conv2 Loss: 2.1026, layer3.1.conv1 Loss: 2.4284, layer3.1.conv2 Loss: 2.2852, layer4.0.conv1 Loss: 2.3075, layer4.0.conv2 Loss: 1.9896, layer4.1.conv1 Loss: 4.0772, layer4.1.conv2 Loss: 1.0920
+Epoch 23, conv1 Loss: 3.7590, layer1.0.conv1 Loss: 3.5083, layer1.0.conv2 Loss: 3.2643, layer1.1.conv1 Loss: 3.3222, layer1.1.conv2 Loss: 3.2866, layer2.0.conv1 Loss: 3.1140, layer2.0.conv2 Loss: 3.0717, layer2.1.conv1 Loss: 2.9069, layer2.1.conv2 Loss: 2.9010, layer3.0.conv1 Loss: 2.4615, layer3.0.conv2 Loss: 2.0910, layer3.1.conv1 Loss: 2.4163, layer3.1.conv2 Loss: 2.2703, layer4.0.conv1 Loss: 2.3006, layer4.0.conv2 Loss: 1.9778, layer4.1.conv1 Loss: 4.0734, layer4.1.conv2 Loss: 1.0812
+Epoch 24, conv1 Loss: 3.7524, layer1.0.conv1 Loss: 3.4990, layer1.0.conv2 Loss: 3.2526, layer1.1.conv1 Loss: 3.3122, layer1.1.conv2 Loss: 3.2739, layer2.0.conv1 Loss: 3.1012, layer2.0.conv2 Loss: 3.0615, layer2.1.conv1 Loss: 2.8949, layer2.1.conv2 Loss: 2.8865, layer3.0.conv1 Loss: 2.4519, layer3.0.conv2 Loss: 2.0777, layer3.1.conv1 Loss: 2.4028, layer3.1.conv2 Loss: 2.2548, layer4.0.conv1 Loss: 2.2941, layer4.0.conv2 Loss: 1.9656, layer4.1.conv1 Loss: 4.0705, layer4.1.conv2 Loss: 1.0707
+Epoch 25, conv1 Loss: 3.7489, layer1.0.conv1 Loss: 3.4916, layer1.0.conv2 Loss: 3.2419, layer1.1.conv1 Loss: 3.3026, layer1.1.conv2 Loss: 3.2622, layer2.0.conv1 Loss: 3.0898, layer2.0.conv2 Loss: 3.0505, layer2.1.conv1 Loss: 2.8834, layer2.1.conv2 Loss: 2.8732, layer3.0.conv1 Loss: 2.4399, layer3.0.conv2 Loss: 2.0671, layer3.1.conv1 Loss: 2.3905, layer3.1.conv2 Loss: 2.2386, layer4.0.conv1 Loss: 2.2860, layer4.0.conv2 Loss: 1.9547, layer4.1.conv1 Loss: 4.0673, layer4.1.conv2 Loss: 1.0591
+Evaluating models...
+main Accuracy: 58.11%
+conv1 Accuracy: 12.24%
+layer1.0.conv1 Accuracy: 16.38%
+layer1.0.conv2 Accuracy: 21.45%
+layer1.1.conv1 Accuracy: 20.15%
+layer1.1.conv2 Accuracy: 20.99%
+layer2.0.conv1 Accuracy: 24.05%
+layer2.0.conv2 Accuracy: 24.18%
+layer2.1.conv1 Accuracy: 26.86%
+layer2.1.conv2 Accuracy: 28.14%
+layer3.0.conv1 Accuracy: 35.98%
+layer3.0.conv2 Accuracy: 42.06%
+layer3.1.conv1 Accuracy: 36.51%
+layer3.1.conv2 Accuracy: 39.71%
+layer4.0.conv1 Accuracy: 37.53%
+layer4.0.conv2 Accuracy: 43.93%
+layer4.1.conv1 Accuracy: 3.58%
+layer4.1.conv2 Accuracy: 59.21%

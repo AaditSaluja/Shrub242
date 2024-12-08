@@ -1,0 +1,81 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Training the main model (AlexNet)...
+Epoch 1, Main Model Loss: 1.6907
+Time taken to train main model: 68.04 seconds
+Training auxiliary models...
+Epoch 1, conv1 Loss: 1.7652, conv2 Loss: 1.3929, conv3 Loss: 1.2729, conv4 Loss: 1.2906, conv5 Loss: 1.3086
+Time taken to train auxiliary models: 75.89 seconds
+Evaluating models...
+
+Class-wise accuracy for main:
+Class 0 (airplane): 61.70%
+Class 1 (automobile): 68.30%
+Class 2 (bird): 39.40%
+Class 3 (cat): 15.10%
+Class 4 (deer): 14.10%
+Class 5 (dog): 60.30%
+Class 6 (frog): 56.10%
+Class 7 (horse): 61.50%
+Class 8 (ship): 58.40%
+Class 9 (truck): 62.00%
+
+Class-wise accuracy for conv1:
+Class 0 (airplane): 63.60%
+Class 1 (automobile): 58.00%
+Class 2 (bird): 58.10%
+Class 3 (cat): 33.50%
+Class 4 (deer): 11.10%
+Class 5 (dog): 31.70%
+Class 6 (frog): 52.50%
+Class 7 (horse): 71.50%
+Class 8 (ship): 53.70%
+Class 9 (truck): 60.90%
+
+Class-wise accuracy for conv2:
+Class 0 (airplane): 61.90%
+Class 1 (automobile): 69.20%
+Class 2 (bird): 43.50%
+Class 3 (cat): 27.10%
+Class 4 (deer): 25.20%
+Class 5 (dog): 43.00%
+Class 6 (frog): 61.90%
+Class 7 (horse): 70.00%
+Class 8 (ship): 62.80%
+Class 9 (truck): 68.90%
+
+Class-wise accuracy for conv3:
+Class 0 (airplane): 64.40%
+Class 1 (automobile): 66.20%
+Class 2 (bird): 47.60%
+Class 3 (cat): 37.20%
+Class 4 (deer): 29.50%
+Class 5 (dog): 45.70%
+Class 6 (frog): 70.10%
+Class 7 (horse): 72.50%
+Class 8 (ship): 73.60%
+Class 9 (truck): 75.90%
+
+Class-wise accuracy for conv4:
+Class 0 (airplane): 64.70%
+Class 1 (automobile): 69.20%
+Class 2 (bird): 45.00%
+Class 3 (cat): 38.40%
+Class 4 (deer): 36.00%
+Class 5 (dog): 40.90%
+Class 6 (frog): 67.60%
+Class 7 (horse): 66.50%
+Class 8 (ship): 67.70%
+Class 9 (truck): 71.20%
+
+Class-wise accuracy for conv5:
+Class 0 (airplane): 63.90%
+Class 1 (automobile): 69.70%
+Class 2 (bird): 40.70%
+Class 3 (cat): 33.30%
+Class 4 (deer): 37.00%
+Class 5 (dog): 45.50%
+Class 6 (frog): 64.20%
+Class 7 (horse): 67.80%
+Class 8 (ship): 69.80%
+Class 9 (truck): 64.70%

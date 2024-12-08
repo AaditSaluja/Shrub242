@@ -1,0 +1,4 @@
+# Ignore custom file patterns
+/Alexnet+Cifar10/data/*
+/Lenet+Mnist/data/*
+/ResNet18+ImageNet/data/*

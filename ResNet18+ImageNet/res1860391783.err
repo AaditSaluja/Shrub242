@@ -1,0 +1,43 @@
+ERROR: Exception:
+Traceback (most recent call last):
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/cli/base_command.py", line 160, in exc_logging_wrapper
+    status = run_func(*args)
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/commands/uninstall.py", line 103, in run
+    uninstall_pathset = req.uninstall(
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/req/req_install.py", line 664, in uninstall
+    uninstalled_pathset.remove(auto_confirm, verbose)
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/req/req_uninstall.py", line 367, in remove
+    if auto_confirm or self._allowed_to_proceed(verbose):
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/req/req_uninstall.py", line 407, in _allowed_to_proceed
+    return ask("Proceed (Y/n)? ", ("y", "n", "")) != "n"
+  File "/n/sw/Mambaforge-22.11.1-4/lib/python3.10/site-packages/pip/_internal/utils/misc.py", line 191, in ask
+    response = input(message)
+EOFError: EOF when reading a line
+/n/home13/asaluja/.local/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/n/home13/asaluja/.local/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/n/home13/asaluja/.local/lib/python3.10/site-packages/torch/cuda/__init__.py:173: UserWarning: 
+NVIDIA H100 80GB HBM3 with CUDA capability sm_90 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_70 sm_75 sm_80 sm_86.
+If you want to use the NVIDIA H100 80GB HBM3 GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+Traceback (most recent call last):
+  File "/n/home13/asaluja/Shrub2/ResNet18+ImageNet/resnet18+imagenet.py", line 264, in <module>
+    _ = main_model(images)
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torchvision/models/resnet.py", line 285, in forward
+    return self._forward_impl(x)
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torchvision/models/resnet.py", line 269, in _forward_impl
+    x = self.bn1(x)
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 151, in forward
+    self.num_batches_tracked.add_(1)  # type: ignore[has-type]
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

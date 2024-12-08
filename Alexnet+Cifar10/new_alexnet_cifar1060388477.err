@@ -1,0 +1,26 @@
+/n/home13/asaluja/.local/lib/python3.10/site-packages/torch/cuda/__init__.py:173: UserWarning: 
+NVIDIA H100 80GB HBM3 with CUDA capability sm_90 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_70 sm_75 sm_80 sm_86.
+If you want to use the NVIDIA H100 80GB HBM3 GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+Traceback (most recent call last):
+  File "/n/home13/asaluja/Shrub2/Alexnet+Cifar10/alexnet_cifar10_2.py", line 212, in <module>
+    train_alexnet(main_model, device, train_loader, main_optimizer, criterion, epochs=40)
+  File "/n/home13/asaluja/Shrub2/Alexnet+Cifar10/alexnet_cifar10_2.py", line 100, in train_alexnet
+    outputs = model(images)  # Only final output
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home13/asaluja/Shrub2/Alexnet+Cifar10/alexnet_cifar10_2.py", line 53, in forward
+    x = self.features[0](x)
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

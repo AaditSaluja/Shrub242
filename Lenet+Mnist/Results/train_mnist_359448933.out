@@ -1,0 +1,14 @@
+Training the main model (LeNet)...
+Epoch 1, Main Model Loss: 0.3181
+Epoch 2, Main Model Loss: 0.0850
+Epoch 3, Main Model Loss: 0.0622
+Epoch 4, Main Model Loss: 0.0503
+Epoch 5, Main Model Loss: 0.0421
+Training auxiliary models...
+Epoch 1, conv1 Loss: 0.2106, conv2 Loss: 0.0983
+Epoch 2, conv1 Loss: 0.0999, conv2 Loss: 0.0489
+Epoch 3, conv1 Loss: 0.0852, conv2 Loss: 0.0395
+Evaluating models...
+Accuracy for main: 97.87%
+Accuracy for conv1: 97.35%
+Accuracy for conv2: 98.84%

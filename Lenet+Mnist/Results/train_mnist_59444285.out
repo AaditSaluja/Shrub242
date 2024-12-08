@@ -1,0 +1,14 @@
+Training the model...
+Epoch 1, Loss: 0.3304
+Epoch 2, Loss: 0.0854
+Epoch 3, Loss: 0.0616
+Epoch 4, Loss: 0.0473
+Epoch 5, Loss: 0.0396
+Testing the model...
+Accuracy at conv1: 18.35%
+Accuracy at pool1: 18.35%
+Accuracy at conv2: 15.19%
+Accuracy at pool2: 15.19%
+Accuracy at fc1: 18.49%
+Accuracy at fc2: 9.02%
+Accuracy at fc3: 98.91%

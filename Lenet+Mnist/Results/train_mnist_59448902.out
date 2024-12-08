@@ -1,0 +1,13 @@
+Training the model with auxiliary classifiers...
+Epoch 1, Loss: 0.2943
+Epoch 2, Loss: 0.0823
+Epoch 3, Loss: 0.0599
+Epoch 4, Loss: 0.0494
+Epoch 5, Loss: 0.0389
+Evaluating the model...
+Accuracy for conv1: 8.95%
+Accuracy for pool1: 8.95%
+Accuracy for conv2: 4.85%
+Accuracy for pool2: 4.85%
+Accuracy for fc1: 0.92%
+Accuracy for fc2: 0.00%

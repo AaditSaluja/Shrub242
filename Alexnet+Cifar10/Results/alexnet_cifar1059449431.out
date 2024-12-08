@@ -1,0 +1,41 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Training the main model (AlexNet)...
+Epoch 1, Main Model Loss: 1.6872
+Epoch 2, Main Model Loss: 1.3407
+Epoch 3, Main Model Loss: 1.2070
+Epoch 4, Main Model Loss: 1.1178
+Epoch 5, Main Model Loss: 1.0369
+Epoch 6, Main Model Loss: 0.9895
+Epoch 7, Main Model Loss: 0.9443
+Epoch 8, Main Model Loss: 0.9105
+Epoch 9, Main Model Loss: 0.8786
+Epoch 10, Main Model Loss: 0.8487
+Epoch 11, Main Model Loss: 0.8207
+Epoch 12, Main Model Loss: 0.8075
+Epoch 13, Main Model Loss: 0.7756
+Epoch 14, Main Model Loss: 0.7625
+Epoch 15, Main Model Loss: 0.7314
+Training auxiliary models...
+Epoch 1, conv1 Loss: 1.5767, conv2 Loss: 1.3184, conv3 Loss: 1.1037, conv4 Loss: 0.9959, conv5 Loss: 0.8882
+Epoch 2, conv1 Loss: 1.2329, conv2 Loss: 1.0592, conv3 Loss: 0.7517, conv4 Loss: 0.5815, conv5 Loss: 0.4710
+Epoch 3, conv1 Loss: 1.1420, conv2 Loss: 0.9109, conv3 Loss: 0.5058, conv4 Loss: 0.2863, conv5 Loss: 0.2083
+Epoch 4, conv1 Loss: 1.0698, conv2 Loss: 0.7850, conv3 Loss: 0.2913, conv4 Loss: 0.0989, conv5 Loss: 0.0634
+Epoch 5, conv1 Loss: 1.0092, conv2 Loss: 0.6710, conv3 Loss: 0.1530, conv4 Loss: 0.0331, conv5 Loss: 0.0163
+Epoch 6, conv1 Loss: 0.9586, conv2 Loss: 0.5799, conv3 Loss: 0.0760, conv4 Loss: 0.0159, conv5 Loss: 0.0051
+Epoch 7, conv1 Loss: 0.9098, conv2 Loss: 0.4881, conv3 Loss: 0.0503, conv4 Loss: 0.0442, conv5 Loss: 0.0024
+Epoch 8, conv1 Loss: 0.8617, conv2 Loss: 0.4094, conv3 Loss: 0.0636, conv4 Loss: 0.0520, conv5 Loss: 0.0012
+Epoch 9, conv1 Loss: 0.8198, conv2 Loss: 0.3511, conv3 Loss: 0.0480, conv4 Loss: 0.0226, conv5 Loss: 0.0007
+Epoch 10, conv1 Loss: 0.7918, conv2 Loss: 0.3057, conv3 Loss: 0.0514, conv4 Loss: 0.0206, conv5 Loss: 0.0004
+Epoch 11, conv1 Loss: 0.7486, conv2 Loss: 0.2580, conv3 Loss: 0.0350, conv4 Loss: 0.0236, conv5 Loss: 0.0003
+Epoch 12, conv1 Loss: 0.7139, conv2 Loss: 0.2199, conv3 Loss: 0.0367, conv4 Loss: 0.0235, conv5 Loss: 0.0002
+Epoch 13, conv1 Loss: 0.6950, conv2 Loss: 0.2081, conv3 Loss: 0.0265, conv4 Loss: 0.0181, conv5 Loss: 0.0001
+Epoch 14, conv1 Loss: 0.6521, conv2 Loss: 0.1853, conv3 Loss: 0.0356, conv4 Loss: 0.0199, conv5 Loss: 0.0001
+Epoch 15, conv1 Loss: 0.6262, conv2 Loss: 0.1689, conv3 Loss: 0.0279, conv4 Loss: 0.0099, conv5 Loss: 0.0000
+Evaluating models...
+Accuracy for main: 70.45%
+Accuracy for conv1: 54.45%
+Accuracy for conv2: 58.53%
+Accuracy for conv3: 64.92%
+Accuracy for conv4: 67.29%
+Accuracy for conv5: 68.75%

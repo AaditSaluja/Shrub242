@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/n/home13/asaluja/Shrub2/ResNet18+ImageNet/resnet18+imagenet.py", line 590, in <module>
+    import torch
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torch/__init__.py", line 2475, in <module>
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torch/export/__init__.py", line 28, in <module>
+    from torch.fx.passes.infra.pass_base import PassResult
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torch/fx/passes/__init__.py", line 1, in <module>
+    from . import graph_drawer
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torch/fx/passes/graph_drawer.py", line 13, in <module>
+    from torch.fx.passes.shape_prop import TensorMetadata
+  File "/n/home13/asaluja/.local/lib/python3.10/site-packages/torch/fx/passes/shape_prop.py", line 7, in <module>
+    from torch._dispatch.python import enable_python_dispatcher
+ModuleNotFoundError: No module named 'torch._dispatch.python'

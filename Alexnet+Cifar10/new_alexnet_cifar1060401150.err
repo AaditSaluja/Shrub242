@@ -1,0 +1,8 @@
+WARNING: Skipping torchvision as it is not installed.
+WARNING: Skipping torchaudio as it is not installed.
+  WARNING: The scripts convert-caffe2-to-onnx, convert-onnx-to-caffe2, torchfrtrace and torchrun are installed in '/n/home13/asaluja/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+torchjpeg 0.9.32 requires torch<2.0.1,>=2.0.0, but you have torch 2.5.1+cu118 which is incompatible.
+torchjpeg 0.9.32 requires torchvision<0.15.2,>=0.15.1, but you have torchvision 0.20.1+cu118 which is incompatible.
+slurmstepd: error: *** JOB 60401150 ON holygpu8a18202 CANCELLED AT 2024-12-02T03:32:13 ***

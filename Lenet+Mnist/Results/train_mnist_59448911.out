@@ -1,0 +1,10 @@
+Training the model with auxiliary classifiers...
+Epoch 1, Loss: 0.9117
+Epoch 2, Loss: 0.2791
+Epoch 3, Loss: 0.1989
+Epoch 4, Loss: 0.1620
+Epoch 5, Loss: 0.1369
+Evaluating the model...
+Accuracy for main: 98.81%
+Accuracy for aux1: 97.77%
+Accuracy for aux2: 98.64%

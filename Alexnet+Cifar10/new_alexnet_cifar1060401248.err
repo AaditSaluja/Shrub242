@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/n/home13/asaluja/Shrub2/Alexnet+Cifar10/alexnet_cifar10.py", line 4, in <module>
+    from torchvision import datasets, transforms
+ModuleNotFoundError: No module named 'torchvision'

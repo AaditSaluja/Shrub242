@@ -1,0 +1,149 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Training the main model (AlexNet)...
+Epoch 1, Main Model Loss: 1.8445
+Epoch 2, Main Model Loss: 1.5198
+Epoch 3, Main Model Loss: 1.3922
+Epoch 4, Main Model Loss: 1.3042
+Epoch 5, Main Model Loss: 1.2299
+Epoch 6, Main Model Loss: 1.1728
+Epoch 7, Main Model Loss: 1.1288
+Epoch 8, Main Model Loss: 1.0765
+Epoch 9, Main Model Loss: 1.0430
+Epoch 10, Main Model Loss: 0.9975
+Epoch 11, Main Model Loss: 0.9664
+Epoch 12, Main Model Loss: 0.9279
+Epoch 13, Main Model Loss: 0.8932
+Epoch 14, Main Model Loss: 0.8646
+Epoch 15, Main Model Loss: 0.8391
+Epoch 16, Main Model Loss: 0.8071
+Epoch 17, Main Model Loss: 0.7853
+Epoch 18, Main Model Loss: 0.7658
+Epoch 19, Main Model Loss: 0.7385
+Epoch 20, Main Model Loss: 0.7051
+Epoch 21, Main Model Loss: 0.6863
+Epoch 22, Main Model Loss: 0.6730
+Epoch 23, Main Model Loss: 0.6479
+Epoch 24, Main Model Loss: 0.6296
+Epoch 25, Main Model Loss: 0.6205
+Epoch 26, Main Model Loss: 0.5895
+Epoch 27, Main Model Loss: 0.5808
+Epoch 28, Main Model Loss: 0.5570
+Epoch 29, Main Model Loss: 0.5428
+Epoch 30, Main Model Loss: 0.5185
+Epoch 31, Main Model Loss: 0.5030
+Epoch 32, Main Model Loss: 0.5032
+Epoch 33, Main Model Loss: 0.4915
+Epoch 34, Main Model Loss: 0.4605
+Epoch 35, Main Model Loss: 0.4534
+Epoch 36, Main Model Loss: 0.4621
+Epoch 37, Main Model Loss: 0.4223
+Epoch 38, Main Model Loss: 0.4236
+Epoch 39, Main Model Loss: 0.4260
+Epoch 40, Main Model Loss: 0.4178
+Epoch 41, Main Model Loss: 0.3975
+Epoch 42, Main Model Loss: 0.3870
+Epoch 43, Main Model Loss: 0.3910
+Epoch 44, Main Model Loss: 0.3696
+Epoch 45, Main Model Loss: 0.3732
+Epoch 46, Main Model Loss: 0.3623
+Epoch 47, Main Model Loss: 0.3667
+Epoch 48, Main Model Loss: 0.3416
+Epoch 49, Main Model Loss: 0.3403
+Epoch 50, Main Model Loss: 0.3376
+Time taken to train main model: 3481.81 seconds
+Training auxiliary models...
+Epoch 1, conv1 Loss: 1.6018, conv2 Loss: 1.6203, conv3 Loss: 1.3627, conv4 Loss: 1.2660, conv5 Loss: 1.1400
+Epoch 2, conv1 Loss: 1.3016, conv2 Loss: 1.4247, conv3 Loss: 1.0496, conv4 Loss: 0.9431, conv5 Loss: 0.4971
+Epoch 3, conv1 Loss: 1.2162, conv2 Loss: 1.3369, conv3 Loss: 0.8286, conv4 Loss: 0.7071, conv5 Loss: 0.1560
+Epoch 4, conv1 Loss: 1.1570, conv2 Loss: 1.2737, conv3 Loss: 0.6137, conv4 Loss: 0.4724, conv5 Loss: 0.0390
+Epoch 5, conv1 Loss: 1.1013, conv2 Loss: 1.2246, conv3 Loss: 0.4213, conv4 Loss: 0.2786, conv5 Loss: 0.0109
+Epoch 6, conv1 Loss: 1.0495, conv2 Loss: 1.1762, conv3 Loss: 0.2731, conv4 Loss: 0.1466, conv5 Loss: 0.0048
+Epoch 7, conv1 Loss: 1.0041, conv2 Loss: 1.1350, conv3 Loss: 0.1785, conv4 Loss: 0.0813, conv5 Loss: 0.0053
+Epoch 8, conv1 Loss: 0.9611, conv2 Loss: 1.0963, conv3 Loss: 0.1126, conv4 Loss: 0.0488, conv5 Loss: 0.0556
+Epoch 9, conv1 Loss: 0.9273, conv2 Loss: 1.0554, conv3 Loss: 0.0809, conv4 Loss: 0.0397, conv5 Loss: 0.0455
+Epoch 10, conv1 Loss: 0.8916, conv2 Loss: 1.0231, conv3 Loss: 0.0726, conv4 Loss: 0.0481, conv5 Loss: 0.0092
+Epoch 11, conv1 Loss: 0.8641, conv2 Loss: 0.9931, conv3 Loss: 0.0753, conv4 Loss: 0.0436, conv5 Loss: 0.0021
+Epoch 12, conv1 Loss: 0.8352, conv2 Loss: 0.9630, conv3 Loss: 0.0579, conv4 Loss: 0.0344, conv5 Loss: 0.0007
+Epoch 13, conv1 Loss: 0.8025, conv2 Loss: 0.9340, conv3 Loss: 0.0415, conv4 Loss: 0.0284, conv5 Loss: 0.0005
+Epoch 14, conv1 Loss: 0.7711, conv2 Loss: 0.9105, conv3 Loss: 0.0441, conv4 Loss: 0.0293, conv5 Loss: 0.0003
+Epoch 15, conv1 Loss: 0.7553, conv2 Loss: 0.8878, conv3 Loss: 0.0472, conv4 Loss: 0.0257, conv5 Loss: 0.0002
+Epoch 16, conv1 Loss: 0.7276, conv2 Loss: 0.8573, conv3 Loss: 0.0316, conv4 Loss: 0.0145, conv5 Loss: 0.0001
+Epoch 17, conv1 Loss: 0.7105, conv2 Loss: 0.8321, conv3 Loss: 0.0309, conv4 Loss: 0.0343, conv5 Loss: 0.0001
+Epoch 18, conv1 Loss: 0.6874, conv2 Loss: 0.8138, conv3 Loss: 0.0415, conv4 Loss: 0.0276, conv5 Loss: 0.0450
+Epoch 19, conv1 Loss: 0.6632, conv2 Loss: 0.7900, conv3 Loss: 0.0366, conv4 Loss: 0.0186, conv5 Loss: 0.0374
+Epoch 20, conv1 Loss: 0.6550, conv2 Loss: 0.7698, conv3 Loss: 0.0306, conv4 Loss: 0.0178, conv5 Loss: 0.0046
+Time taken to train auxiliary models: 1408.86 seconds
+Evaluating models...
+
+Class-wise accuracy for main:
+Class 0 (airplane): 76.50%
+Class 1 (automobile): 79.30%
+Class 2 (bird): 46.20%
+Class 3 (cat): 53.60%
+Class 4 (deer): 56.20%
+Class 5 (dog): 55.20%
+Class 6 (frog): 75.50%
+Class 7 (horse): 69.70%
+Class 8 (ship): 73.90%
+Class 9 (truck): 74.50%
+
+Class-wise accuracy for conv1:
+Class 0 (airplane): 62.20%
+Class 1 (automobile): 73.00%
+Class 2 (bird): 42.20%
+Class 3 (cat): 29.60%
+Class 4 (deer): 44.70%
+Class 5 (dog): 48.80%
+Class 6 (frog): 50.80%
+Class 7 (horse): 58.70%
+Class 8 (ship): 66.20%
+Class 9 (truck): 49.00%
+
+Class-wise accuracy for conv2:
+Class 0 (airplane): 39.00%
+Class 1 (automobile): 52.90%
+Class 2 (bird): 39.20%
+Class 3 (cat): 29.90%
+Class 4 (deer): 37.30%
+Class 5 (dog): 32.90%
+Class 6 (frog): 51.60%
+Class 7 (horse): 63.40%
+Class 8 (ship): 72.80%
+Class 9 (truck): 60.10%
+
+Class-wise accuracy for conv3:
+Class 0 (airplane): 60.90%
+Class 1 (automobile): 66.40%
+Class 2 (bird): 40.70%
+Class 3 (cat): 43.60%
+Class 4 (deer): 52.10%
+Class 5 (dog): 46.00%
+Class 6 (frog): 59.40%
+Class 7 (horse): 59.50%
+Class 8 (ship): 68.80%
+Class 9 (truck): 68.70%
+
+Class-wise accuracy for conv4:
+Class 0 (airplane): 60.80%
+Class 1 (automobile): 62.10%
+Class 2 (bird): 41.60%
+Class 3 (cat): 33.40%
+Class 4 (deer): 58.60%
+Class 5 (dog): 40.90%
+Class 6 (frog): 68.00%
+Class 7 (horse): 61.40%
+Class 8 (ship): 76.90%
+Class 9 (truck): 69.40%
+
+Class-wise accuracy for conv5:
+Class 0 (airplane): 63.70%
+Class 1 (automobile): 66.40%
+Class 2 (bird): 47.30%
+Class 3 (cat): 39.30%
+Class 4 (deer): 53.60%
+Class 5 (dog): 47.80%
+Class 6 (frog): 64.20%
+Class 7 (horse): 62.70%
+Class 8 (ship): 73.00%
+Class 9 (truck): 64.00%
