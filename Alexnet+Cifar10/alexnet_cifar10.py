@@ -236,7 +236,7 @@ main_optimizer = optim.Adam(main_model.parameters(), lr=0.001)
 
 # Train AlexNet
 print("Training the main model (AlexNet)...")
-train_alexnet(main_model, device, train_loader, main_optimizer, criterion, epochs=50)
+train_alexnet(main_model, device, train_loader, main_optimizer, criterion, epochs=60)
 
 # Define and train auxiliary models for convolutional layers
 auxiliary_models = {
@@ -256,9 +256,13 @@ aux_criteria = {
     for layer in auxiliary_models.keys()
 }
 
-print("Training auxiliary models...")
-train_auxiliary_models(main_model, auxiliary_models, device, train_loader, aux_optimizers, aux_criteria, epochs=20)
+total_aux_epochs = 25
+increment = 5
+for i in range(0, total_aux_epochs, increment):
+    print("Training auxiliary models...")
+    train_auxiliary_models(main_model, auxiliary_models, device, train_loader, aux_optimizers, aux_criteria, epochs=increment)
+    # Evaluate the main model and auxiliary models
+    print("Evaluating models...")
+    evaluate_models(main_model, auxiliary_models, device, test_loader)
 
-# Evaluate the main model and auxiliary models
-print("Evaluating models...")
-evaluate_models(main_model, auxiliary_models, device, test_loader)
+
